@@ -36,10 +36,10 @@ At this step you must exit and re-enter Cygwin enviroment for the changes to tak
 Continue with the following commands to download/patch/build the Arduino source.
 
 ```
-wget https://github.com/arduino/Arduino/archive/1.6.11.zip
-mv 1.6.11.zip Arduino-1.6.11.zip
-unzip Arduino-1.6.11.zip
-cd Arduino-1.6.11
+wget https://github.com/arduino/Arduino/archive/1.6.12.zip
+mv 1.6.12.zip Arduino-1.6.12.zip
+unzip Arduino-1.6.12.zip
+cd Arduino-1.6.12
 
 wget https://github.com/arduino/Arduino/pull/4102.patch
 mv 4102.patch SerialMonitor.patch
@@ -49,8 +49,8 @@ cd build
 ant dist
 ```
 
-Press enter when you are asked for a version number to choose the default value and after a long downloading and building process you can find your freshly build arduino-1.6.11-windows.zip file in the following folder:
+Press enter when you are asked for a version number to choose the default value and after a long downloading and building process you can find your freshly build arduino-1.6.12-windows.zip file in the following folder:
 
 ```
-C:\cygwin\home\yourwindowsusername\Arduino-1.6.11\build\windows
+C:\cygwin\home\yourwindowsusername\Arduino-1.6.12\build\windows
 ```
