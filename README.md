@@ -1,3 +1,8 @@
+```diff
++ On Arduino IDE version 1.8.4 and up this feature is already merged.
+- There will be no more updates to this repository, but the information will be kept for reference.
+```
+
 ### Compiling Arduino IDE with DTR/RTS Patch for using Serial Monitor with ESP8266
 
 Download jdk-8u111-windows-i586.exe from http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html and install with default settings.
